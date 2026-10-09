@@ -5,16 +5,16 @@ dotenv.config()
 const port = process.env.PORT || 4000
 
 app.get("/", (req,res)=>{
-    res.send('salut othman')
+    res.send('Bienvenue dans mon back end ')
 })
 
 app.get("/login", (req,res)=>{
-    res.send('salut login')
+    res.send('Bienvenue dans la route login')
 })
 
 
 app.get("/signup", (req,res)=>{
-    res.send('salut signup')
+    res.send('bienvenue dans la route d inscription')
 })
 
 
